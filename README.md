@@ -1,30 +1,27 @@
-# README - Retensi di E-Commerce Kosmetik
+# README - Retention in E-Commerce Cosmetics
 
-### 📌 Disclaimer
+## Background
 
-This repository is written in BAHASA INDONESIA.
+High-traffic e-commerce platforms in the cosmetics industry face challenges where many users add products to their carts but only a few complete their transactions. Understanding the factors behind these drop-offs—such as pricing, brand loyalty, or other influences—can help improve customer retention.
 
-## Latar Belakang
+## Approach
 
-E-commerce kosmetik dengan traffic tinggi menghadapi tantangan di mana banyak pengguna menambahkan produk ke keranjang, tetapi sedikit yang menyelesaikan transaksi. Memahami faktor di balik pembatalan ini—seperti harga, loyalitas merek, atau faktor lain—dapat membantu meningkatkan retensi pelanggan.
-
-## Pendekatan
-
-- Menganalisis pola perilaku pelanggan untuk mengidentifikasi faktor yang memengaruhi keputusan pembelian.
-- Melakukan segmentasi pelanggan berdasarkan tren transaksi untuk meningkatkan retensi.
-- Menyusun rekomendasi strategis guna mengoptimalkan performa e-commerce.
+- Analyzing customer behavior patterns to identify key factors influencing purchase decisions.
+- Segmenting customers based on transaction trends to enhance retention.
+- Developing strategic recommendations to optimize e-commerce performance.
 
 ## Data
 
-- user_id:	ID unik pengguna
-- event_time:	Waktu aktivitas terjadi
-- event_type:	Jenis aktivitas (view, cart, remove, purchase)
-- product_id:	ID produk
-- brand_category:	Kategori merek
-- brand:	Nama merek
-- price:	Harga produk
-- event_month:	Rentang waktu dari pembelian pertama hingga terakhir
+- user_id: Unique user ID
+- event_time: Timestamp of user activity
+- event_type: Type of activity (view, cart, remove, purchase)
+- product_id: Product ID
+- brand_category: Brand category
+- brand: Brand name
+- price: Product price
+- event_month: Time range from the first to the last purchase
 
-## Kesimpulan
+## Conclusion
 
-Analisis ini bertujuan untuk memahami pola perilaku pelanggan, mengurangi pembatalan transaksi, dan meningkatkan loyalitas pelanggan melalui strategi berbasis data.
+This analysis aims to understand customer behavior patterns, reduce transaction drop-offs, and improve customer loyalty through data-driven strategies.
+
